@@ -33,7 +33,6 @@ a {
   display: inline-block;
 }
 
-footer {
+.crossroads, .sogoodfoodatx, footer {
   float: left;
-
 }
