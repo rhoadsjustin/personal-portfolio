@@ -21,31 +21,31 @@
 
   ![clone url](https://cloud.githubusercontent.com/assets/6520345/17565297/bc8e85ca-5eeb-11e6-870d-3029f9f7ed5b.png)
 
-1. On your own computer, make a `wdi` directory in your home folder (`~`). This is where you will put all your work from this class. You can complete this in one command:
+5. On your own computer, make a `wdi` directory in your home folder (`~`). This is where you will put all your work from this class. You can complete this in one command:
   ```
   ➜ mkdir ~/wdi
   ```
 
-4. Use the "clone URL" to clone the repo onto your local machine. Make sure you're in your `~/wdi` directory before you clone!
+6. Use the "clone URL" to clone the repo onto your local machine. Make sure you're in your `~/wdi` directory before you clone!
 
   ```zsh
   ➜  cd ~/wdi
   ➜  git clone <clone-url>
   ```
 
-5. Change directories into the repo you just cloned (in this example, `<username>.github.io`).
+7. Change directories into the repo you just cloned (in this example, `<username>.github.io`).
 
   ```zsh
   ➜  cd <username>.github.io
   ```
 
-6. Open this project in Atom.
+8. Open this project in Atom.
 
   ```zsh
   atom .
   ```
 
-1. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
+9. Back in Atom, open `index.html`. Take a moment to read through index.html and answer these questions for yourself:
   *
   <details>
     <summary>How many stylesheets does this webpage currently have? Where in the project can they be found and edited?</summary>
@@ -62,29 +62,29 @@
     <p>You'd want to write your custom JS in the `assets/js/app.js` file. Once this file grows big enough you might want to create new JS files in the `assets/js` folder.</p>
   </details>
 
-1. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
+10. In the `<body>` of the document, replace the `<h1>` tag text with your name and add an image (or gif) of your liking using the `<img>` tag.
 
-6. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
+11. Now that you've changed the repo, it's time to commit your changes. Back in your terminal, type
 
   ```zsh
   ➜  git status
   ```
   This shows you the files that have been modified, created, or deleted. Notice that they are listed as `untracked`.
 
-1. Now you're ready to `add` your changes. Type
+12. Now you're ready to `add` your changes. Type
   ```
   ➜  git add .
   ```
   Now enter `git status`. Notice that your new file has gone from `untracked` to `Changes to be committed`.
 
-1. Next step is committing. Type the following:
+13. Next step is committing. Type the following:
 
   ```
   ➜  git commit -m "first edits to index.html"
   ```
   Now enter `git status` again. Notice that the new status is `Your branch is ahead of 'origin/master' by 1 commit.`. This indicates that your the version of the repo on your computer (aka the __local__ version) includes your changes but the version hosted by GitHub (aka the __remote__ version) does not.
 
-1. To get your changes on to the remote version of the repo, type
+14. To get your changes on to the remote version of the repo, type
 
   ```
   ➜  git push origin master
@@ -93,9 +93,9 @@
 
   Now `git status` will tell you that `Your branch is up-to-date with 'origin/master'.` __!!!__
 
-2. Check back in on your site to see the improvements deployed!
+15. Check back in on your site to see the improvements deployed!
 
-1. Repeat steps 11 onward at least three times to improve your site and practice this Git workflow.
+16. Repeat steps 11 onward at least three times to improve your site and practice this Git workflow.
 
 # Deliverables
 
