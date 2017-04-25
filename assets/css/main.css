@@ -1,1 +1,39 @@
-/* custom styles */
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url("../imgs/citybckgrndimg.jpg");
+  color: white;
+}
+h1 {
+  font-size: 75px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  display: inline-block;
+  /*margin: auto;
+  width: 50%;
+  padding: 10px;*/
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  float: right;
+}
+a {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer {
+  float: left;
+
+}
