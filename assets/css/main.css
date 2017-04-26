@@ -12,10 +12,11 @@ h1 {
 }
 h2 {
   display: inline-block;
-  /*margin: auto;
+  /*margin: auto;*/
   width: 50%;
-  padding: 10px;*/
+  /*padding: 10px;*/
   text-align: center;
+  font-size: 35px;
 }
 img {
   display: block;
@@ -33,6 +34,7 @@ a {
   display: inline-block;
 }
 
-.crossroads, .sogoodfoodatx, footer {
+footer {
   float: left;
+  display: inline;
 }
