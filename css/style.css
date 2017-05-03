@@ -1,5 +1,5 @@
-nav .nav-wrapper {
-  color: #ffe144;
+.nav-wrapper {
+    @extend .yellow, .lighten-1;
 }
 body {
   background-color: lightgray;
