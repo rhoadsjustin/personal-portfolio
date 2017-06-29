@@ -2,32 +2,91 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css"
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
   <script src="https://use.fontawesome.com/d0d81250b4.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
 
   <title>Personal Portfolio</title>
 </head>
 <body>
 
   <!-- The Navigation Bar -->
+  <div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper grey darken-2">
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="#">Who is Justin Rhoads</a></li>
-        <li><a href="#column2">Projects</a></li>
+        <li><a href="#about">Who is Justin Rhoads</a></li>
+        <li><a href="#project">Projects</a></li>
         <li><a href="#column1">Get Connected with Justin</a></li>
       </ul>
     </div>
   </nav>
+</div>
+  <div class="parallax-container">
+      <div class="parallax"><img src="./assets/imgs/bckgrndimg.jpg"></div>
+    </div>
+    <div class="section white" id="about">
+      <div class="row container">
+        <img class="circle" src="./assets/imgs/JustinRhoads.jpg" alt="Justin Rhoads" width="150px">
+        <h2 class="header">Justin Rhoads</h2>
+        <h4>About Me -</h4>
+        <p class="grey-text text-darken-3 lighten-3">I am a passionate and skilled web developer. My passion for creating is driven by a desire to use technology to better the world around me. Simple, intuitive, and engaging designs are the solutions I always look for when problems are brought before me. I bring leadership, collaborative, and public-speaking skills from my previous career to complement my strong development skills.</p>
+        <a id="menu" class="waves-effect waves-light btn btn-floating hoverable" ><i class="material-icons">menu</i></a>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="./assets/imgs/mindblown.gif"></div>
+    </div>
+    <div class="section white" id="project">
+      <h2 class="header center-align">Projects</h2>
+      <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <div class="caption left-align">
+          <h3>Left Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <div class="caption right-align">
+          <h3>Right Aligned Caption</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+        <div class="caption center-align">
+          <h3>This is our big Tagline!</h3>
+          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="parallax-container">
+  <div class="parallax"><img src="./assets/imgs/citybckgrndimg.jpg"></div>
+</div>
 
 
+ <!-- Tap Target Structure -->
   <!-- about me section -->
-  <div id="column1">
+  <!-- <div id="column1">
     <div class="row">
       <div class="col s12 m12">
         <div class="card large">
@@ -57,39 +116,19 @@
       </div>
     </div>
   </div>
+<hr />
+
+<div id="column2" class="col s4 m8">
+  <div class="carousel carousel-slider center" data-indicators="true">
+    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
+  <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+  <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+  <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+</div>
+</div>
+</div> -->
 
 
-
-  <div id="column2">
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card large">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="assets/projectsheader.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">My Projects</span>
-            <p>These are some of the projects I have created using my skills in HTML, CSS, and JS. Utlizing various frameworks like: bootstrap, WordPress, Materialize, etc.</br></p>
-            <div class="card-action">
-              <span class="card-title activator grey-text text-darken-4">Websites</span>
-              <a href="https://github.com/rhoadsjustin/geoquakes">GeoQuakes
-                <i class="fa fa-wordpress" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.epikeats.com/">EpikEats
-                <i class="fa fa-cutlery" aria-hidden="true"></i>
-              </a>
-              <a href="https://github.com/rhoadsjustin/js_adventure">JavaScript Adventure Game
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-              <a href="http://tictactoe-jr.bitballoon.com/">Tic-Tac-Toe Game
-                <i class="fa fa-gamepad" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
 </body>
 </html>

@@ -1,2 +1,9 @@
 // sanity check
-console.log("app.js linked.");
+$(document).ready(function(){
+ $('.carousel.carousel-slider').carousel();
+ $('.parallax').parallax();
+ $('.tap-target').tapTarget('open');
+ $('.tap-target').tapTarget('close');
+ $('.slider').slider();
+
+});
