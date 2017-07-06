@@ -2,7 +2,6 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
@@ -18,117 +17,94 @@
 <body>
 
   <!-- The Navigation Bar -->
-  <div class="navbar-fixed">
-  <nav>
-    <div class="nav-wrapper grey darken-2">
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li><a href="#about">Who is Justin Rhoads</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#column1">Get Connected with Justin</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
+    <nav>
+       <div class="nav-wrapper red">
+         <a href="#!" class="brand-logo">Justin Rhoads</a>
+         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+         <ul class="right hide-on-med-and-down">
+           <li><a href="#about">Who is Justin Rhoads</a></li>
+           <li><a href="#project">Projects</a></li>
+           <li><a href="#mobile-demo">Contact Me</a></li>
+         </ul>
+         <ul class="side-nav" id="mobile-demo">
+           <li><div class="user-view">
+             <div class="background">
+               <img src="./assets/imgs/sidebarheader.png" width="300px">
+             </div>
+             <a href="#!user"><img class="responsive-img circle" src="./assets/imgs/JustinRhoads.jpg"></a>
+             <a href="#!name"><span class="black-text name">Justin Rhoads</span></a>
+             <a href="#!email"><span class="black-text email">email: rhoadsjustin@gmail.com</span></a>
+             <a href="#!email"><span class="black-text email">phone: (501)-831-5392</span></a>
+           </div></li>
+           <li><div class="divider"></div></li>
+           <li><a href="#about">Who is Justin Rhoads</a></li>
+           <li><a href="#project">Projects</a></li>
+           <li><a href="#contact">Contact Me</a></li>
+         </ul>
+       </div>
+     </nav>
+
+<!-- parallax image -->
   <div class="parallax-container">
-      <div class="parallax"><img src="./assets/imgs/bckgrndimg.jpg"></div>
+      <div class="parallax">
+        <img src="./assets/imgs/sidebarheader.png" class="responsive-img">
+        </div>
     </div>
+    <!-- white space for information  -->
     <div class="section white" id="about">
       <div class="row container">
-        <img class="circle" src="./assets/imgs/JustinRhoads.jpg" alt="Justin Rhoads" width="150px">
-        <h2 class="header">Justin Rhoads</h2>
+        <img class="circle" src="./assets/imgs/friends.jpg" alt="Justin Rhoads" width="150px">
         <h4>About Me -</h4>
         <p class="grey-text text-darken-3 lighten-3">I am a passionate and skilled web developer. My passion for creating is driven by a desire to use technology to better the world around me. Simple, intuitive, and engaging designs are the solutions I always look for when problems are brought before me. I bring leadership, collaborative, and public-speaking skills from my previous career to complement my strong development skills.</p>
-        <a id="menu" class="waves-effect waves-light btn btn-floating hoverable" ><i class="material-icons">menu</i></a>
+        <!-- links to connect with me  -->
+        <div class="fixed-action-btn toolbar">
+         <a class="btn-floating btn-large red pulse">
+           <i class="large material-icons">chat</i>
+           Contact Me
+         </a>
+         <ul>
+           <li class="waves-effect waves-light"><a href="https://github.com/rhoadsjustin"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+           <li class="waves-effect waves-light"><a href="https://twitter.com/_justinrhoads"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+           <li class="waves-effect waves-light"><a href="https://www.linkedin.com/in/rhoadsjustin/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+           <li class="waves-effect waves-light"><a href="https://drive.google.com/open?id=0ByNIqXhcds8iNzMxYTcxOVE3am8"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Resume</a></li>
+         </ul>
+       </div>
       </div>
     </div>
+    <!-- parallax image  -->
     <div class="parallax-container">
-      <div class="parallax"><img src="./assets/imgs/mindblown.gif"></div>
+      <div class="parallax"><img src="./assets/imgs/boat.jpg" class="responsive-img"></div>
     </div>
+    <!-- projects sliders -->
     <div class="section white" id="project">
       <h2 class="header center-align">Projects</h2>
       <div class="slider">
     <ul class="slides">
       <li>
-        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <a href="http://www.epikeats.com/">
+        <img src="./assets/imgs/epikEatsHeader.png"> <!-- random image -->
+        </a>
       </li>
       <li>
-        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <a href="https://www.dronedatabase.herokuapp.com">
+        <img src="./assets/imgs/DroneDBHeader.png">
+        </a> <!-- random image -->
       </li>
       <li>
-        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <a href="https://www.github.com/rhoadsjustin">
+        <img src="./assets/imgs/githubheader.png"> <!-- random image -->
+      </a>
       </li>
     </ul>
   </div>
 </div>
 <div class="parallax-container">
   <div class="parallax"><img src="./assets/imgs/citybckgrndimg.jpg"></div>
-</div>
-
-
- <!-- Tap Target Structure -->
-  <!-- about me section -->
-  <!-- <div id="column1">
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card large">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="assets/getconnectedheader.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">About Me</span>
-            <p>My passions and desires completely derive from helping others. It is my mission to help people experience joyful and fullfilled lives. I want to leverage technology to see this mission come true!</br></p>
-            <div class="card-action">
-              <span class="card-title activator grey-text text-darken-4">Connect with Me</span>
-              <a href="https://twitter.com/_justinrhoads">Twitter
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.linkedin.com/in/rhoadsjustin/">LinkedIn
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </a>
-              <a href="https://github.com/rhoadsjustin">GitHub
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-              <a href="https://profiles.generalassemb.ly/justinrhoads">GA Profile
-                <i class="fa fa-suitcase" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <div class="caption overlay center-align">
+    <h2>Thanks for stopping by! </h2><br>
+    <h2>Let's connect and create something</h2>
   </div>
-<hr />
-
-<div id="column2" class="col s4 m8">
-  <div class="carousel carousel-slider center" data-indicators="true">
-    <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-  <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-  <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-  <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
 </div>
-</div>
-</div> -->
-
-
 
 </body>
 </html>

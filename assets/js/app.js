@@ -5,5 +5,5 @@ $(document).ready(function(){
  $('.tap-target').tapTarget('open');
  $('.tap-target').tapTarget('close');
  $('.slider').slider();
-
+ $(".button-collapse").sideNav();
 });
