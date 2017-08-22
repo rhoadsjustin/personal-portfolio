@@ -19,12 +19,12 @@
   <!-- The Navigation Bar -->
     <nav>
        <div class="nav-wrapper red">
-         <a href="#!" class="brand-logo">Justin Rhoads</a>
+         <a href="#!" class="brand-logo"><span><img class="responsive-img customBrand" src="./assets/imgs/JustinBrand.png"></span></a>
          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
          <ul class="right hide-on-med-and-down">
-           <li><a href="#about">Who is Justin Rhoads</a></li>
-           <li><a href="#project">Projects</a></li>
-           <li><a href="#mobile-demo">Contact Me</a></li>
+           <li><a href="#about" class="hoverable">Who is Justin Rhoads</a></li>
+           <li><a href="#project" class="hoverable">Projects</a></li>
+           <li><a href="#mobile-demo" class="hoverable">Contact Me</a></li>
          </ul>
          <ul class="side-nav" id="mobile-demo">
            <li><div class="user-view">
@@ -53,9 +53,9 @@
     <!-- white space for information  -->
     <div class="section white" id="about">
       <div class="row container">
-        <img class="circle" src="./assets/imgs/friends.jpg" alt="Justin Rhoads" width="150px">
-        <h4>About Me -</h4>
-        <p class="grey-text text-darken-3 lighten-3">I am a passionate and skilled web developer. My passion for creating is driven by a desire to use technology to better the world around me. Simple, intuitive, and engaging designs are the solutions I always look for when problems are brought before me. I bring leadership, collaborative, and public-speaking skills from my previous career to complement my strong development skills.</p>
+        <img class="circle center-block" src="./assets/imgs/friends.jpg" alt="Justin Rhoads" width="300px">
+        <h4 class="center">About Me </h4>
+        <blockquote class="grey-text text-darken-3 lighten-3">I am a passionate and skilled web developer. My passion for creating is driven by a desire to use technology to better the world around me. Simple, intuitive, and engaging designs are the solutions I always look for when problems are brought before me. I bring leadership, collaborative, and public-speaking skills from my previous career to complement my strong development skills.</blockquote>
         <!-- links to connect with me  -->
         <div class="fixed-action-btn toolbar">
          <a class="btn-floating btn-large red pulse">
@@ -66,7 +66,7 @@
            <li class="waves-effect waves-light"><a href="https://github.com/rhoadsjustin"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
            <li class="waves-effect waves-light"><a href="https://twitter.com/_justinrhoads"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
            <li class="waves-effect waves-light"><a href="https://www.linkedin.com/in/rhoadsjustin/"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-           <li class="waves-effect waves-light"><a href="https://drive.google.com/file/d/0ByNIqXhcds8iWFVxZkVWMGFWOHc/view?usp=sharing"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Resume</a></li>
+           <li class="waves-effect waves-light"><a href="https://drive.google.com/open?id=0ByNIqXhcds8iWFVxZkVWMGFWOHc"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Resume</a></li>
          </ul>
        </div>
       </div>
@@ -104,11 +104,21 @@
   </div>
 </div>
 <div class="parallax-container">
-  <div class="parallax"><img src="./assets/imgs/citybckgrndimg.jpg"></div>
   <div class="caption overlay center-align">
-    <h2>Thanks for stopping by! </h2><br>
-    <h2>Let's connect and create something</h2>
+    <h2>Web Dev Skills</h2><br>
   </div>
+    <div class="carousel">
+      <a class="carousel-item" href="#one!"><img src="./assets/imgs/js.png"></a>
+      <a class="carousel-item" href="#two!"><img src="./assets/imgs/css3.png"></a>
+      <a class="carousel-item" href="#three!"><img src="./assets/imgs/html.png"></a>
+      <a class="carousel-item" href="#four!"><img src="./assets/imgs/React-JS.sh.png"></a>
+      <a class="carousel-item" href="#five!"><img src="./assets/imgs/node.png"></a>
+      <a class="carousel-item" href="#six!"><img src="./assets/imgs/json.png"></a>
+      <a class="carousel-item" href="#seven!"><img src="./assets/imgs/mongodb.png"></a>
+      <a class="carousel-item" href="#eight!"><img src="./assets/imgs/git.png"></a>
+      <a class="carousel-item" href="#nine!"><img src="./assets/imgs/angular.png"></a>
+    </div>
+    <div class="parallax"><img src="./assets/imgs/citybckgrndimg.jpg" class="responsive-img"></div>
 </div>
 
 </body>

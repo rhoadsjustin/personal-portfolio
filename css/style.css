@@ -16,3 +16,11 @@ i {
 body {
   color: red;
 }
+
+blockquote {
+  font-size: 18px;
+}
+
+img.responsive-img.customBrand {
+  height: 100px;
+}
